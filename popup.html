@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redora X - GPT Translate</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
+      padding: 20px;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+
+    .logo-container img {
+      width: 180px; /* büyütülmüş logo boyutu */
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 2px #000); /* karanlık temada parlatır */
+    }
+
+    label {
+      align-self: flex-start;
+      font-size: 13px;
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      background: #1e1e1e;
+      color: #fff;
+      font-size: 13px;
+    }
+
+    button {
+      margin-top: 18px;
+      padding: 10px;
+      width: 100%;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #1669c1;
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 11px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="logo.png" alt="Redora X Logo" />
+  </div>
+
+  <label for="apiKey">🔑 OpenAI API Key:</label>
+  <input type="text" id="apiKey" placeholder="sk-..." />
+
+  <label for="model">🧠 Model:</label>
+  <select id="model">
+    <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+    <option value="gpt-4">gpt-4</option>
+    <option value="gpt-4o">gpt-4o</option>
+  </select>
+
+  <label for="targetLang">🌐 Target Language (e.g. tr, en, de):</label>
+  <input type="text" id="targetLang" placeholder="tr" />
+
+  <button id="saveBtn">💾 Save Settings</button>
+
+  <div class="footer">powered by GPT · Redora 2025</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
