@@ -1,0 +1,1 @@
+# redora-x-gpt-translator
