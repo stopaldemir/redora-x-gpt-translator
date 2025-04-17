@@ -59,7 +59,7 @@ Your API key is stored **locally** via `chrome.storage.local`.
 - Rate-limited, secure, and open-source
 - Perfect for building multilingual datasets
 
-🔗 GitHub: `redora-x-dataset-api`  
+🔗 GitHub: `redora-x-translation-logger`  
 
 ---
 
