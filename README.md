@@ -52,6 +52,17 @@ Your API key is stored **locally** via `chrome.storage.local`.
 
 ---
 
+## 📡 Optional Dataset API 
+
+- Logs source + translated texts
+- Skips duplicate entries with LRU cache
+- Rate-limited, secure, and open-source
+- Perfect for building multilingual datasets
+
+🔗 GitHub: `redora-x-dataset-api`  
+
+---
+
 ## 🧠 Powered by
 
 - [OpenAI API](https://platform.openai.com/)  
