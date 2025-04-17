@@ -10,7 +10,8 @@
     ],
     "host_permissions": [
         "https://x.com/*",
-        "https://*.x.com/*"
+        "https://*.x.com/*",
+        "https://x.redora.co/*"
     ],
     "action": {
         "default_popup": "popup.html",
